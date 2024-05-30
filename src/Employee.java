@@ -20,8 +20,14 @@ public class Employee {
     }
 
     public String getName() {
-        return name;
+        return getName();
     }
 
-
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", salary=" + salary +
+                '}';
+    }
 }
